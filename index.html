@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAREED | Find Blood Donors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo"><span>♥</span> WAREED</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#search">Find Donors</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#search" class="nav-btn">Find a Donor</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tag">♥ EVERY DROP CAN SAVE A LIFE</span>
+
+                <h1>Be Someone's<br>
+                    <span>Reason to Live.</span>
+                </h1>
+
+                <p>
+                    A single blood donation can make a huge difference.
+                    Find blood donors around you and help save lives.
+                </p>
+
+                <a href="#search" class="main-btn">Find Blood Donors <span>→</span></a>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>8</strong>
+                        <small>Blood Groups</small>
+                    </div>
+                    <div>
+                        <strong>1</strong>
+                        <small>Donation Saves Lives</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="circle circle-one"></div>
+                <div class="circle circle-two"></div>
+
+                <div class="floating-heart heart-a">♥</div>
+                <div class="floating-heart heart-b">♥</div>
+                <div class="floating-heart heart-c">+</div>
+
+                <div class="big-drop">
+                    <div class="drop-shine"></div>
+                    <div class="drop-heart">♥</div>
+                </div>
+
+                <div class="blood-bag">
+                    <div class="bag-hanger"></div>
+                    <div class="bag-body">
+                        <div class="bag-liquid"></div>
+                        <div class="bag-cross">+</div>
+                        <span class="bag-label">BLOOD</span>
+                    </div>
+                    <div class="bag-tube"></div>
+                </div>
+
+                <div class="art-caption">
+                    <span>♥</span> Give Blood, Give Life
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <span class="section-tag">WHY WAREED?</span>
+            <h2>Every Drop <span>Matters</span></h2>
+            <p>
+                WAREED helps people find blood donors quickly and easily.
+                Together, we can make a difference.
+            </p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">♥</div>
+                    <h3>Save Lives</h3>
+                    <p>Your donation can help someone in need.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⌕</div>
+                    <h3>Easy Search</h3>
+                    <p>Find donors by blood group and governorate.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">♡</div>
+                    <h3>Help Others</h3>
+                    <p>Be part of a community that cares.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-section" id="search">
+            <div class="search-heading">
+                <span class="section-tag">FIND A DONOR</span>
+                <h2>Search Blood <span>Donors</span></h2>
+                <p>Choose the blood group and governorate you need.</p>
+            </div>
+
+            <div class="search-box">
+                <div class="field">
+                    <label for="blood">Blood Group</label>
+                    <select id="blood">
+                        <option value="">All Blood Groups</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="city">Governorate</label>
+                    <select id="city">
+                        <option value="">All Governorates</option>
+                        <option value="Dakahlia">Dakahlia</option>
+                        <option value="Cairo">Cairo</option>
+                        <option value="Alexandria">Alexandria</option>
+                        <option value="Giza">Giza</option>
+                        <option value="Sharkia">Sharkia</option>
+                        <option value="Gharbia">Gharbia</option>
+                    </select>
+                </div>
+
+                <button id="searchBtn" class="search-btn">Search Donors →</button>
+            </div>
+
+            <div class="results-heading">
+                <h3>Available Donors</h3>
+                <span id="resultCount">Sample donors</span>
+            </div>
+
+            <div class="donor-grid" id="donors"></div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div>
+                <span class="section-tag">BE A HERO</span>
+                <h2>Donate Blood.<br><span>Save a Life.</span></h2>
+                <p>One small act of kindness can mean everything to someone.</p>
+            </div>
+            <a href="#search" class="main-btn">Find a Donor →</a>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" class="logo"><span>♥</span> WAREED</a>
+        <p>Made with ♥ to help save lives.</p>
+        <small>© 2026 WAREED. All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
